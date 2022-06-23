@@ -93,7 +93,7 @@ function Rating() {
   return (
     <Wrapper>
       <Star>
-        <StarImage src={image} />
+        <StarImage alt="just a star" src={image} />
       </Star>
       <Heading>How did we do?</Heading>
       <Paragraph>
