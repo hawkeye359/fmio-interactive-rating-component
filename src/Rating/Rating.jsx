@@ -3,16 +3,17 @@ import styled from "styled-components";
 import image from "../icon-star.svg";
 import Thanks from "./Thanks";
 const Wrapper = styled.div`
-  padding: 30px;
-  background: hsl(213, 19%, 18%);
-  border-radius: 20px;
+  padding: 30px 30px;
+  padding-right: 35px;
+  background: #1e252f;
+  border-radius: 26px;
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 375px;
 `;
 const Star = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 43px;
+  height: 43px;
   border-radius: 50%;
   background: hsl(217, 12%, 63%, 0.1);
   display: flex;
@@ -25,26 +26,26 @@ const StarImage = styled.img`
 `;
 const Heading = styled.h1`
   font-size: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   font-weight: 700;
 `;
 const Paragraph = styled.p`
   font-weight: 400;
-  font-size: 15px;
-  margin-top: 1rem;
+  font-size: 14px;
+  margin-top: 0.5rem;
   color: hsl(216, 12%, 54%);
-  line-height: 1.5rem;
+  line-height: 1.4rem;
 `;
 const SubmitButton = styled.button`
   background: hsl(25, 97%, 53%);
   line-height: 1.5rem;
   border: none;
-  margin-top: 1.5rem;
+  margin-top: 2.2rem;
   font-size: 0.8rem;
   padding: 5px;
   padding-top: 7px;
   border-radius: 24px;
-  height: 36px;
+  height: 40px;
   font-weight: 500;
   letter-spacing: 2px;
   cursor: pointer;
@@ -65,12 +66,12 @@ const RatingPointContainer = styled.div`
   justify-content: space-between;
 `;
 const RatingPoint = styled.div`
-  height: 50px;
-  width: 50px;
+  height: 43px;
+  width: 43px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: hsl(217, 12%, 63%, 0.1);
+  background: #262f38;
   border-radius: 25px;
   color: hsl(217, 12%, 63%);
   cursor: pointer;
