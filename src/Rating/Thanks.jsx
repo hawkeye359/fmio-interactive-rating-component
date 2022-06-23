@@ -41,7 +41,7 @@ const Image = styled.img`
 function Thanks({ rating }) {
   return (
     <Wrapper>
-      <Image src={ThankYouImage} />
+      <Image alt="Thank you image" src={ThankYouImage} />
       <RatingShow>You selected {rating} out of 5</RatingShow>
       <Heading>Thank You!</Heading>
       <Paragraph>
