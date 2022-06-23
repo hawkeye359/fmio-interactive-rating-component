@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  width: 375px;
+  width: 350px;
 `;
 const Star = styled.div`
   width: 50px;
